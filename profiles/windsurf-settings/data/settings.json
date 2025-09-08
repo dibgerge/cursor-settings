@@ -1,0 +1,103 @@
+{
+    "[brazilPackageConfig]": {
+        "workbench.editor.languageDetection": false
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.fontSize": 18,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.minimap.maxColumn": 100,
+    "editor.rulers": [
+        100
+    ],
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        ".viceroy": true,
+        "apollo-overrides": true,
+        "release-info": true,
+        "src/*/build": false,
+        "build": false,
+        "env": true,
+        "packageInfo*": true,
+        ".bemol": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true
+    },
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.diagnostics.sourceMapsEnabled": true,
+    "search.exclude": {
+        "env": true,
+        "src/*/build": true,
+        "build": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "kindle-planning-redshift.cfbl7dhwcatl.us-west-2.redshift.amazonaws.com",
+            "port": 8192,
+            "driver": "Redshift Driver (Dedicated ver)",
+            "name": "Kindle",
+            "username": "kindle_planning_ro",
+            "password": "9sgCr3uhyxULNtrj",
+            "database": "prod"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "meslolgs nf",
+    "viceroy.config.beautyMode": false,
+    "viceroy.config.internal.lastUpdateTime": "2023-12-14T23:56:39.034Z",
+    "viceroy.config.lastVersion": "0.52.201541",
+    "viceroy.marketplace.extensionUpdateChannels": {
+        "amzn.AWSGuruQLinter": "stable",
+        "marklel.vscode-brazil": "insiders",
+        "kaze.vscode-plugin-contribution-model": "stable"
+    },
+    "vsicons.associations.fileDefault.file_light": null,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.settings.applyToAllProfiles": [],
+    "yaml.schemas": {
+        "file:///Users/dibgerge/.vscode/extensions/marklel.vscode-brazil-0.52.201541/assets/languages/rde/schema.json": "**/definition.yaml"
+    },
+    "terminal.integrated.env.osx": {
+        "CW_NEW_SESSION": "1"
+    },
+    "viceroy.workspaceSyncStrategy": "automatic",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn"
+    },
+    "window.titleBarStyle": "custom",
+    "verilog.linting.linter": "iverilog",
+    "editor.minimap.enabled": true,
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.preferredDarkColorTheme": "Material Theme High Contrast",
+    "workbench.colorCustomizations": {
+        
+    },
+    "workbench.preferredHighContrastColorTheme": "Material Theme High Contrast",
+    "workbench.preferredLightColorTheme": "Material Theme High Contrast",
+    "workbench.iconTheme": "material-icon-theme"
+}
