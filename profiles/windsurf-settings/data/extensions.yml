@@ -48,8 +48,8 @@ disabled:
     uuid: e96f7482-8e97-4155-8a7c-ad5fab4d8b2d
   - id: kj.sqltools-driver-redshift
     uuid: 79682668-03eb-4b9d-adbd-103d137a6f34
-  - id: littlefoxteam.vscode-python-test-adapter
-    uuid: 00000000-0000-0000-0000-000000000000
+  #- id: littlefoxteam.vscode-python-test-adapter
+  #  uuid: 00000000-0000-0000-0000-000000000000
   - id: mathematic.vscode-latex
     uuid: 5cb26d81-4679-472b-84c4-59d4ea4b8a0b
   - id: mechatroner.rainbow-csv
